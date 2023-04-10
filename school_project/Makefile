@@ -130,7 +130,7 @@ $(BIN_DIR)/$(SRC_DIR)/%.o : $(SRC_DIR)/%.c $(HEADER_FILES)
 clean:
 	@echo "$(PREFIX_CLEAN) Cleaning $(BIN_DIR)/"
 	@rm -rf $(BIN_DIR)
-	@rm -rf Grace_kid.c Sully7 Sully6 Sully5 Sully4 Sully3 Sully2 Sully1 Sully0 Sully_7.c Sully_6.c Sully_5.c Sully_4.c Sully_3.c Sully_2.c Sully_1.c Sully_0.C
+	@rm -rf Grace_kid.c Sully7 Sully6 Sully5 Sully4 Sully3 Sully2 Sully1 Sully0 Sully_7.c Sully_6.c Sully_5.c Sully_4.c Sully_3.c Sully_2.c Sully_1.c Sully_0.c
 
 # final clean rule
 fclean: fclean_lib clean
